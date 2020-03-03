@@ -29,7 +29,7 @@ def ussd_callback():
     elif text == "1":
         # sub menu 1
         response = "CON What would you like to check on your account?\n"
-        response += "1. Account number"
+        response += "1. Account number \n"
         response += "2. Account balance"
     elif text == "2":
         # sub menu 1
